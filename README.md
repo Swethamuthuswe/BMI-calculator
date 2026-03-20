@@ -45,6 +45,7 @@ src/
 ├── index.css           # Global styles
 ├── main.tsx            # Application entry point
 └── types.ts            # TypeScript type definitions
+
 ## 🚥 Getting Started
 
 ### Prerequisites
