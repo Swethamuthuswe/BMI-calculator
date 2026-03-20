@@ -1,16 +1,59 @@
-# React + Vite
+# BMI Calculator with Health Tips
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple and user-friendly **BMI Calculator** built using **React + Vite**.  
+It helps users calculate their **Body Mass Index (BMI)** by entering their height and weight.
 
-Currently, two official plugins are available:
+Based on the BMI result, the application also provides **health tips** to guide users toward a healthier lifestyle.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Calculate BMI using height and weight
+- Display BMI value instantly
+- Show BMI category
+- Provide health tips based on BMI result
+- Simple and clean user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## BMI Categories
 
-## Expanding the ESLint configuration
+- Underweight
+- Normal weight
+- Overweight
+- Obese
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Health Tips
+
+The application gives useful health tips according to the user's BMI category.  
+These tips help users understand what kind of food habits, exercise, and lifestyle changes may be beneficial.
+
+## Technologies Used
+
+- React
+- Vite
+- TypeScript
+- CSS
+
+## How to Run the Project
+
+1. Clone the repository
+2. Open the project folder
+3. Install dependencies using:
+
+   npm install
+
+4. Start the development server using:
+
+   npm run dev
+
+5. Open the local host link in your browser
+
+## Purpose of the Project
+
+The main purpose of this project is to help users:
+
+- Know their BMI value
+- Understand their body condition
+- Get simple health tips for improvement
+
+## Author
+
+Swetha
