@@ -1,0 +1,31 @@
+export type BMICategory = 'Underweight' | 'Normal' | 'Overweight' | 'Obese';
+
+export interface FoodItem {
+  name: string;
+  description: string;
+  benefits: string;
+  imageUrl: string;
+  calories: string;
+  mealTime: 'Breakfast' | 'Lunch' | 'Dinner' | 'Snack';
+}
+
+export interface ExerciseItem {
+  name: string;
+  description: string;
+  duration: string;
+  imageUrl: string;
+  level: 'Beginner' | 'Intermediate' | 'Advanced';
+  frequency: string;
+}
+
+export interface HealthData {
+  category: BMICategory;
+  title: string;
+  description: string;
+  foods: FoodItem[];
+  exercises: ExerciseItem[];
+  dailyRoutine: string[];
+  waterIntake: string;
+  sleepRequired: string;
+  warningMessage?: string;
+}
