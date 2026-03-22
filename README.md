@@ -46,4 +46,11 @@ src/
 ├── main.tsx            # Application entry point
 └── types.ts            # TypeScript type definitions
 
+Getting Started
+✅ Prerequisites
+
+Make sure you have the following installed:
+Node.js (v16.x or higher)
+npm (v8.x or higher)
+
 
