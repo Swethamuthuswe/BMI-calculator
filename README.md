@@ -53,4 +53,23 @@ Make sure you have the following installed:
 Node.js (v16.x or higher)
 npm (v8.x or higher)
 
+📥 Installation
+Clone the repository:
+git clone https://github.com/Swethamuthuswe/BMI-calculator.git
+Navigate to the project directory:
+cd BMI-calculator
+Install dependencies:
+npm install
 
+▶️ Running the App
+Start the development server:
+npm run dev
+The application will be available at:
+http://localhost:5173
+
+📜 Future Roadmap
+Add advanced health tips based on age and lifestyle
+Include exercise and diet recommendations for each BMI category
+Store BMI history for progress tracking
+Improve UI with charts, animations, and responsiveness
+Add multilingual support
